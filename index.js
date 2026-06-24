@@ -442,7 +442,7 @@ async function run() {
     }
   });
 
-  // ── PAYMENT ──
+  // ── PAYMENT 
   app.post("/create-checkout-session", verifyToken, async (req, res) => {
     try {
       const { email } = req.body;
