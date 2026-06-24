@@ -63,7 +63,6 @@ async function run() {
   };
 
 
-  
   const verifyToken = (req, res, next) => {
     const isBrowserNavigation =
       req.get("sec-fetch-mode") === "navigate" ||
@@ -127,6 +126,7 @@ async function run() {
     });
   });
 
+
   // ── JWT ──
   app.post("/auth/jwt", async (req, res) => {
     const { email } = req.body;
@@ -157,7 +157,8 @@ async function run() {
     res.json({ success: true });
   });
 
-  // ── RECIPES (public) ──
+
+  // ── RECIPES (public) 
   app.get("/recipes", async (req, res) => {
     try {
       const page = parseInt(req.query.page) || 1;
