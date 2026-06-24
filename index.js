@@ -342,7 +342,7 @@ async function run() {
     }
   });
 
-  // ── FAVORITES ──
+  // ── FAVORITES 
   app.post("/favorites", verifyToken, async (req, res) => {
     try {
       const { recipeId } = req.body;
