@@ -1,9 +1,8 @@
-
 ---
 
 # SERVER README — `server/README.md`
 
-```markdown
+
 # RecipeHub — Server
 
 REST API backend for RecipeHub. Handles recipes, favorites, payments, admin operations, JWT verification, and MongoDB communication.
