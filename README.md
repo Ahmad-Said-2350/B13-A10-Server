@@ -15,8 +15,8 @@ Built for simplicity — clean routes, verified access, predictable responses.
 
 The RecipeHub server powers all data operations for the platform. It exposes REST endpoints for recipes, favorites, reports, and payments. Private routes are protected by JWT verification via HTTPOnly cookie. Data is stored in MongoDB Atlas using the native driver.
 
-**Client Repo:** `https://github.com/your-username/recipehub-client`  
-**Live Server:** `https://your-server-url.onrender.com`
+**Client Repo:** `https://github.com/Ahmad-Said-2350/B13-A10-Client`  
+**Live Server:** `https://b13-a10-server.vercel.app`
 
 ---
 
@@ -129,7 +129,7 @@ The RecipeHub server powers all data operations for the platform. It exposes RES
 ### Install
 
 ```bash
-git clone https://github.com/your-username/recipehub-server
+git clone https://github.com/Ahmad-Said-2350/B13-A10-Server
 cd recipehub-server
 npm install
 npm run dev
